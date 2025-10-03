@@ -8,6 +8,8 @@ const Hero = () => {
   // framerMotion magic starts here
   const [windowOffset, setWindowOffset] = useState({ innerWidth: 0, innerHeight: 0})
   const [mouseMove, setMouseMove] = useState(false)
+  const [buttonHover, setButtonHover] = useState(false)
+
   const x = useMotionValue(0)
   const y = useMotionValue(0)
 
@@ -47,19 +49,33 @@ const Hero = () => {
                   }}>
                       <Image 
                         // src={'/person.png'} 
-                        src={'/me_test.png'} 
+                        src={'/testi.jpg'} 
                         alt='me' width={400} 
                         height={400} 
                         priority={true}
                         className='h-auto w-[150px]'
                         />
-                      <span className="absolute text-3xl, font-semibold text-white">Hi There 👋</span>
+                      <motion.span 
+                        className="absolute text-3xl, font-semibold text-white"
+                        initial={{ scale: 0}}
+                        animate={{ 
+                          opacity: buttonHover ? 0 : 1, 
+                          scale: buttonHover ? 2 : 0,
+                          y: buttonHover ? -30 : 0
+                        }}
+                        transition={{ opacity: { delay: 0.4 }}}
+                        >Hi There 👋</motion.span>
                   </motion.div>
                   <h1 className='text-center text-3xl font-bold tracking-wider text-gray-600'>My Name is Felix 😊</h1>
                   <p className='text-lg tracking-wider text-gray-700'>I like Animations..</p>
               </div>
               <div>
-               <a href='#' className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'>my Projects</a>
+               <a 
+                href='#' 
+                className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
+                onMouseEnter={() => setButtonHover(true)}
+                onMouseLeave={() => setButtonHover(false)}
+               >my Projects</a>
               </div>
               <a href='#' className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'>Contact me</a>
           </div>
