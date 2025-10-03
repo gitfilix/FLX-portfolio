@@ -19,27 +19,30 @@ import GithubFillIcon from 'remixicon-react/GithubFillIcon'
 import Projector2LineIcon from 'remixicon-react/Projector2LineIcon'
 import GroupLineIcon from 'remixicon-react/GroupLineIcon'
 import AwardFillIcon from 'remixicon-react/AwardFillIcon'
+import PulseLineIcon from 'remixicon-react/PulseLineIcon'
+import BugLineIcon from 'remixicon-react/BugLineIcon'
+import CupFillIcon from 'remixicon-react/CupFillIcon'
 
 export const aboutData = [
   {
-    title: 'Github Repos',
-    amount: 348,
+    title: 'Github Commits',
+    amount: 6048,
     icon: <GithubFillIcon />,
   },
   {
-    title: 'Successful Projects',
-    amount: 227,
-    icon: <Projector2LineIcon />,
+    title: 'Bugs fixed',
+    amount: 2127,
+    icon: <BugLineIcon />,
   },
   {
-    title: 'Satisfied clients',
+    title: 'New Bugs deployed',
     amount: 176,
-    icon: <GroupLineIcon />,
+    icon: <PulseLineIcon />,
   },
   {
-    title: 'Awards and Recognition',
-    amount: 107,
-    icon: <AwardFillIcon />,
+    title: 'Coffees during workhours',
+    amount: 10307,
+    icon: <CupFillIcon />,
   },
 ]
 
@@ -50,7 +53,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Felix, a web developer.. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience."
+  " Hi, I'm Felix, a web developer, Frontend Engineer & Nerd.. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch."
 // End of About Me
 
 // Experience

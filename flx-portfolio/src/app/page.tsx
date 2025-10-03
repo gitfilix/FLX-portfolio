@@ -1,5 +1,7 @@
+// lets force-render that all client side 
 'use client'
 import Hero from "@/components/Hero"
+import AboutMe from '@/components/AboutMe'
 import { motion, useMotionTemplate, useMotionValue, animate } from 'framer-motion'
 import { useEffect } from 'react'
 
@@ -32,6 +34,7 @@ export default function Home() {
       >
         test page
         <Hero />
+        <AboutMe />
       </motion.div>
     </section>
   )

@@ -66,18 +66,18 @@ const Hero = () => {
                         transition={{ opacity: { delay: 0.4 }}}
                         >Hi There 👋</motion.span>
                   </motion.div>
-                  <h1 className='text-center text-3xl font-bold tracking-wider text-gray-600'>My Name is Felix 😊</h1>
+                  <h1 className='text-center text-4xl font-bold tracking-wider text-gray-600 sm:text-2xl'>My Name is Felix 😊</h1>
                   <p className='text-lg tracking-wider text-gray-700'>I like Animations..</p>
               </div>
               <div>
                <a 
                 href='#' 
-                className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
+                className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
                 onMouseEnter={() => setButtonHover(true)}
                 onMouseLeave={() => setButtonHover(false)}
                >my Projects</a>
               </div>
-              <a href='#' className='mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'>Contact me</a>
+              <a href='#' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'>Contact me</a>
           </div>
       </div>
   )
