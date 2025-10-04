@@ -13,7 +13,7 @@ const Hero = () => {
   const x = useMotionValue(0)
   const y = useMotionValue(0)
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: { clientX: any; clientY: any }) => {
     const { clientX, clientY } = e
     x.set(clientX)
     y.set(clientY)
