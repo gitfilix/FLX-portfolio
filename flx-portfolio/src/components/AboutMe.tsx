@@ -16,6 +16,7 @@ const AboutMe = () => {
                     alt='me'
                     width={400}
                     height={400}
+                    // className='w-[300px] lg:w-[200px] md:hidden'
                     className='w-[300px] lg:w-[200px]'
                 />
                 <div className="relative max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify dark:bg-zinc-700 transition-colors ">

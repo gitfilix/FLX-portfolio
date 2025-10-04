@@ -12,13 +12,21 @@ module.exports = {
       //   'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       // },
     },
-    screens: {
-      xl: { max: '1400px' },
-      lg: { max: '1150px' },
-      md: { max: '767px' },
-      sm: { max: '639px' },
-      xs: { max: '393px' },
-    },
+    // screens: {
+    //   xl: { max: '1400px' },
+    //   lg: { max: '1150px' },
+    //   md: { max: '767px' },
+    //   sm: { max: '639px' },
+    //   xs: { max: '393px' },
+    // },
+    // test
+    // screens: {
+    //   xs: { min: '393px' },
+    //   sm: { min: '640px' },
+    //   md: { min: '768px' }, 
+    //   lg: { min: '1024px'},
+    //   xl: { min: '1400px'},
+    // },
   },
   plugins: [],
   darkMode: 'class',

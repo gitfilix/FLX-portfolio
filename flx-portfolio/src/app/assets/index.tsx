@@ -53,7 +53,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hallo, ich bin Felix, ein Web Frontend Engineer, WebDude & Nerd.. Ich code HTML, CSS, JavaScript, React, NextJS, TypeScript  to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch."
+  " Hallo, ich bin Felix, ein Web Frontend Engineer, WebDude & Nerd.. Ich code HTML, CSS, JavaScript, React, NextJS, TypeScript  to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications. Und noch mehr text über mich wahrscheinlich in Deutsch."
 // End of About Me
 
 // Experience

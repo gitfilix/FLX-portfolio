@@ -8,7 +8,7 @@ const outfit = Outfit({
 
 
 export const metadata: Metadata = {
-  title: "FLX Portfolio",
+  title: "FiLiX Portfolio",
   description: "Portfolio website for FLX",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${outfit.className}  antialiased`}
       >

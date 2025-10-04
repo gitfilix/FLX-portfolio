@@ -2,6 +2,7 @@
 'use client'
 import Hero from "@/components/Hero"
 import AboutMe from '@/components/AboutMe'
+import Experience from '@/components/Experience'
 import { motion, useMotionTemplate, useMotionValue, animate } from 'framer-motion'
 import { useEffect } from 'react'
 
@@ -13,15 +14,16 @@ export default function Home() {
   const colorChange = useMotionValue(colorRange[0])
   const backgroundImage = useMotionTemplate`radial-gradient(100% 180% at 50% 0%, #020217 25%, ${colorChange})`
 
-  useEffect(() => {
-    animate(colorChange, colorRange, {
-      ease: 'easeInOut',
-      duration: 12,
-      repeat: Infinity,
-      repeatType: 'mirror'
-    }
-    )
-  }, [])
+  // TODO: Bring this cool effects back
+  // useEffect(() => {
+  //   animate(colorChange, colorRange, {
+  //     ease: 'easeInOut',
+  //     duration: 12,
+  //     repeat: Infinity,
+  //     repeatType: 'mirror'
+  //   }
+  //   )
+  // }, [])
 
 
   return (
@@ -32,9 +34,15 @@ export default function Home() {
       }}
       className='relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 text-gray-200'
       >
-        test page
         <Hero />
         <AboutMe />
+        <Experience />
+            <div className='w-full p-6
+                 sm:bg-amber-600 
+                 md:bg-amber-900
+                 lg:bg-blue-400
+                 xl:bg-green-400'
+                 >da sollte immer da sein zum testen</div>
       </motion.div>
     </section>
   )
