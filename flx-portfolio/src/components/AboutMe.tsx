@@ -18,7 +18,7 @@ const AboutMe = () => {
                     height={400}
                     className='w-[300px] lg:w-[200px]'
                 />
-                <div className="relative max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify dark:bg-zinc-700 transition-colors">
+                <div className="relative max-w-[800px] rounded-xl bg-zinc-100 p-5 text-justify dark:bg-zinc-700 transition-colors ">
                     <span className="absolute -left-5 top-20 scale-[2.5] text-zinc-100 md:hidden dark:text-zinc-700 transition-colors">
                         {arrowLeftIcon}
                     </span>
@@ -28,7 +28,7 @@ const AboutMe = () => {
                     <a
                         href="/nick-cv.pdf"
                         download=""
-                        className="w-max flex items-center gap-x-2 mt-6 rounded-full border border-gray-300 bg-transparent px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
+                        className="w-max flex items-center gap-x-2 mt-6 rounded-full border border-red-500 bg-amber-500 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
                     >
                         <span>Download CV</span>
                         <span className="text-sm">{downloadIcon}</span>
@@ -37,6 +37,7 @@ const AboutMe = () => {
             </div>
             
             <div className='mt-20 w-full flex flex-wrap items-center justify-between gap-x-7 gap-y-10'>
+            {/* <h3 className='font-light'>Things done in this Year</h3> */}
                 {aboutData.map((item, i) => (
                     <Achievements key={i} title={item.title} amount={item.amount} >
                         {item.icon}

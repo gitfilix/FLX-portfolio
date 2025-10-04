@@ -26,22 +26,22 @@ import CupFillIcon from 'remixicon-react/CupFillIcon'
 export const aboutData = [
   {
     title: 'Github Commits',
-    amount: 6048,
+    amount: 248,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Bugs fixed',
-    amount: 2127,
+    amount: 227,
     icon: <BugLineIcon />,
   },
   {
     title: 'New Bugs deployed',
-    amount: 176,
+    amount: 46,
     icon: <PulseLineIcon />,
   },
   {
     title: 'Coffees during workhours',
-    amount: 10307,
+    amount: 307,
     icon: <CupFillIcon />,
   },
 ]
@@ -53,7 +53,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Felix, a web developer, Frontend Engineer & Nerd.. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch."
+  " Hallo, ich bin Felix, ein Web Frontend Engineer, WebDude & Nerd.. Ich code HTML, CSS, JavaScript, React, NextJS, TypeScript  to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch."
 // End of About Me
 
 // Experience

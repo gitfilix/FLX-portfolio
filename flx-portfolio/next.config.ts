@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 // export as static for render.com hosting - for now
+// images API does not work with render static output.
 const nextConfig: NextConfig = {
-  output: "export"
+  images: { unoptimized: true },
+  output: "export",
+  reactStrictMode: false
 };
 
 export default nextConfig;
