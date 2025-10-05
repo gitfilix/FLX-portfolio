@@ -12,10 +12,10 @@ const AboutMe = () => {
             <Heading headertext={'About Me'}/>
             <div className='w-full flex items-center justify-between md:justify-center'>
                 <Image
-                    src={'/about-me.png'}
+                    src={'/fiilix_sw_500.jpg'}
                     alt='me'
                     width={400}
-                    height={400}
+                    height={200}
                     // className='w-[300px] lg:w-[200px] md:hidden'
                     className='w-[300px] lg:w-[200px]'
                 />
@@ -27,7 +27,7 @@ const AboutMe = () => {
                         {aboutText}
                     </p>
                     <a
-                        href="/nick-cv.pdf"
+                        // href="/nick-cv.pdf"
                         download=""
                         className="w-max flex items-center gap-x-2 mt-6 rounded-full border border-red-500 bg-amber-500 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
                     >

@@ -10,9 +10,9 @@ import { useEffect } from 'react'
 export default function Home() {
   // aurora background effect magic fuckery: 
   // color Range changes value in the animation useEffect 
-  const colorRange = ['#12dFAA', '#1E67C6', '#AA335C', '#DD335C']
+  const colorRange = ['#861236', '#1E67C6', '#AA335C', '#DD335C', '#322D56']
   const colorChange = useMotionValue(colorRange[0])
-  const backgroundImage = useMotionTemplate`radial-gradient(100% 180% at 50% 0%, #020217 25%, ${colorChange})`
+  const backgroundImage = useMotionTemplate`radial-gradient(100% 180% at 50% 0%, #010207 25%, ${colorChange})`
 
   // TODO: Bring this cool effects back
   // useEffect(() => {

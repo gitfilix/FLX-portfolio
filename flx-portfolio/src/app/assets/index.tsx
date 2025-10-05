@@ -59,37 +59,37 @@ export const aboutText =
 // Experience
 export const experienceData = [
   {
-    year: 1,
+    year: 2002,
     title: 'Foundation and Basics',
     education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
+      'School of Audio Engineering: Multimedia Producer Diploma',
     experience: [
       'Basic HTML/CSS: Learn through online tutorials and courses.',
       'Personal Projects: Create simple personal websites or blogs.',
     ],
   },
   {
-    year: 2,
-    title: 'Advanced Learning and Early Experience',
+    year: 2008,
+    title: 'Linux System Administor I',
     education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
+      'HSR Technische Hochschule, Rapperswil',
     experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
+      'Linux System Administration LPIC 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
       'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
     ],
   },
   {
-    year: 3,
-    title: 'Specialized Education and Real-World Application',
+    year: 2012,
+    title: 'Linux System Administor II',
     education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
+      'HSR Technische Hochschule, Rapperswil',
     experience: [
       'Internships: Secure internships with tech companies or design agencies.',
       'Contribute to Open Source: Collaborate on open-source projects.',
     ],
   },
   {
-    year: 4,
+    year: 2008,
     title: 'Building Expertise and Expanding Skills',
     education: 'Certifications: Obtain certifications in advanced web technologies.',
     experience: [
@@ -98,7 +98,7 @@ export const experienceData = [
     ],
   },
   {
-    year: 5,
+    year: 2020,
     title: 'Mastery and Leadership',
     education: 'Workshops and Conferences: Attend industry events to stay updated.',
     experience: [
