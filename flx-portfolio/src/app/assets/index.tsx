@@ -99,7 +99,16 @@ export const experienceData = [
   },
   {
     year: 2020,
-    title: 'Mastery and Leadership',
+    title: 'Frontend Stuff',
+    education: 'Workshops and Conferences: Attend industry events to stay updated.',
+    experience: [
+      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
+      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
+    ],
+  },
+  {
+    year: 2022,
+    title: 'Frontend Stuff II',
     education: 'Workshops and Conferences: Attend industry events to stay updated.',
     experience: [
       'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
@@ -110,18 +119,6 @@ export const experienceData = [
 
 // Skills
 export const skillsData = [
-  {
-    name: 'Figma',
-    icon: '/skills/figma.png',
-  },
-  {
-    name: 'Photoshop',
-    icon: '/skills/photoshop.png',
-  },
-  {
-    name: 'Blender',
-    icon: '/skills/blender.png',
-  },
   {
     name: 'VS Code',
     icon: '/skills/vscode.png',
@@ -155,23 +152,23 @@ export const skillsData = [
     icon: '/skills/ts.png',
   },
   {
-    name: 'AI',
-    icon: '/skills/ai.png',
+    name: 'CSS Modules',
+    icon: '/skills/css_modules.png'
+  },
+  {
+    name: 'Photoshop',
+    icon: '/skills/photoshop.png',
   },
   {
     name: 'Framer Motion',
     icon: '/skills/framer.png',
   },
   {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
-  },
-  {
     name: 'NextJS',
     icon: '/skills/nextjs.png',
   },
   {
-    name: 'NodeJS',
+    name: 'Node JS',
     icon: '/skills/nodejs.png',
   },
   {

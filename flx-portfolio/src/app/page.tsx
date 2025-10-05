@@ -3,6 +3,7 @@
 import Hero from "@/components/Hero"
 import AboutMe from '@/components/AboutMe'
 import Experience from '@/components/Experience'
+import Skills from '@/components/Skills'
 import { motion, useMotionTemplate, useMotionValue, animate } from 'framer-motion'
 import { useEffect } from 'react'
 
@@ -35,14 +36,16 @@ export default function Home() {
       className='relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 text-gray-200'
       >
         <Hero />
-        <AboutMe />
-        <Experience />
-            <div className='w-full p-6
+        {/* <AboutMe /> */}
+        {/* <Experience /> */}
+        <Skills />
+
+             {/* <div className='w-full p-6
                  sm:bg-amber-600 
                  md:bg-amber-900
                  lg:bg-blue-400
                  xl:bg-green-400'
-                 >da sollte immer da sein zum testen</div>
+                 >da sollte immer da sein zum testen</div> */}
       </motion.div>
     </section>
   )

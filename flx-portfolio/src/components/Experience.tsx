@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Heading from './sub/Heading'
 import { experienceData, downloadIcon } from '@/app/assets'
+import { motion, useMotionValue } from 'framer-motion'
 
 
 const Experience = () => {
@@ -24,9 +25,13 @@ const Experience = () => {
             />
             <div className='w-full h-full flex flex-col items-center justify-center gap-y-10 py-10 lg:gap-y20'>
                 {experienceData.map((data, i) => (
-                    <div
+                    <motion.div
                         key={`id-${i}`} 
                         className='w-[600px] px-12 relative'
+                        initial={{ opacity: 0, x: i % 2 === 0 ? -100 : 100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration:  0.8, type: 'spring', stiffness: 50 }}
                         >
                     <div className='relative flex flex-col gay-y-3 rounded-md border border-gray-200 bg-transparent p-4 tracking-wide sm:text-sm'>
                         <div className='text-gray-200 absolute top-0 -left-20 rounded-full border aspect-square grid place-items-center w-14'>{data.year}</div>
@@ -45,7 +50,7 @@ const Experience = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </motion.div>
                 ))}
             </div>
         </div>
