@@ -180,6 +180,10 @@ export const skillsData = [
     icon: '/skills/mongodb.png',
   },
   {
+    name: 'MySQL (todo)',
+    icon: '/skills/mongodb.png',
+  },
+  {
     name: 'Github',
     icon: '/skills/github.png',
   },
@@ -203,60 +207,50 @@ export const checkIcon = <CheckLineIcon />
 // Q & A Section
 export const questions = [
   {
-    question: 'How much do you charge for a website?',
-    answer:
-      'Our website packages usually range from £2997 – £4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.',
-  },
-  {
-    question: 'Why are you so expensive?',
-    answer:
-      'he process we use to build your website takes a certain amount of time and a lot of planning and research. Unlike other agencies, we DON’T use templates. We build your website from scratch, which means you get a unique design tailored around your business. Buying a website from us should not just simply be seen as a business expense as your website is a sales tool that should earn you money',
-  },
-  {
-    question: 'How long does it take to build a website?',
+    question: 'Warum arbeite ich gerne als Frontend Engineer?',
     answer:
       'It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself.',
   },
   {
-    question: 'How do we communicate throughout the website build?',
+    question: 'Warum braucht es Frontend Engeneering?',
     answer:
-      'Before we begin working together, we’ll usually have an initially chat on the phone or via Skype to discuss the project. Once we get started, most of the communication will take place over email. This makes the process a lot easier as we’ll have all of the information saved and can come back to it later. Once we’ve finished the project, we will book in your 1hr digital marketing training session.',
+      'Wissen in den Bereichen Architektur, Entwicklungsprozesse im Team, Design & Component Systems, Cloud Deployment und weitere Fähigkeiten, um ein Projekt erfolgreich vom Start bis zum Go-Live zu führen.',
   },
   {
-    question: 'What will you need from me?',
+    question: 'Warum hat es keine Links zu deinen Arbeiten?',
     answer:
-      'It really depends on what type of website you want. We’ll be able to discuss this on our discovery call before we start working together. Depending on which package we agree on we could need…',
+      'In den letzten 10 Jahren habe ich für die grössten kommerziellen Newsportale der Schweiz gearbeitet. Mein Code wird also täglich auf hunderttausenden Clients ausgeführt (tagesanzeiger.ch, 20min, derbund.ch usw). Es ist aber nicht "nur mein code", jedoch unsere Codebase. Da dieser in privaten Repositories gehalten wird ist er nicht öffentlich zugänglich. Meine älteren produktive Projekte und Side-Projects sind teilweise online, aber natürlich nicht mehr state-of-the-art.',
   },
   {
-    question: 'What if I don’t like the website?',
+    question: 'Wie würde ich meine Persönlichkeit beschreiben?',
     answer:
-      'You’re in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.',
+      'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😊 Kann auch mit Nicht-Techies ganz gut kommunizieren und möchte am grossen ganzen mitarbeiten. Ich kann auch Kochen und Backen',
   },
   {
-    question: 'Do you offer a payment schedule?',
+    question: 'Mit welchen Tools ist diese Webpage erstellt?',
     answer:
-      'Yes, we split the payment into two. The first 50% is usually taken once you have seen the mockup of your homepage and you’re happy to move forward. The following 50% is taken 30 days after this.',
+      'Diese Page: NextJS, React, TypeScript, Framer Motion (for Fun! 😎), TailwindCSS (for pain! 🤔), Render yaml-pipeline',
   },
   {
-    question: 'Can I make the final payment when the site is ready to go live?',
+    question: 'Was habe ich in den Jahren zwischen der Multimedia Ausbildung und Webapplikation entwickeln getan?',
     answer:
-      'No. In the past we have found that projects can take a lot longer than expected to complete. We might be waiting for information from you and this can delay the process. Sometimes these delays can take months. This is why we always invoice 30 days after the original payment. At this point we’ll be well on our way with your new website and you’ll be able to see the progress.',
+      'Systeme aller Art: Ich war über Jahren System Admin und habe (fast) alle Systeme durchgespielt: von High-availability Unix, Linux, Windows, bis zu proprietäre Realtime Systems. Dannach habe ich die commandline gegen Photoshop ausgetauscht, um nach ein paar Jahren wieder auf zsh zurückzukommen... ',
   },
   {
-    question: 'Who hosts the website?',
+    question: 'Ersetzt AI das Code schreiben im nächsten Jahr komplett?',
     answer:
-      'If we build your website, we will generally manage the hosting for you so you don’t need to do anything. We use the same hosting company for our own website and for ALL our clients. Each website is managed individually to avoid any security issues. Every website we build has unlimited bandwidth, 20GB of disk space, 2GB Ram and 99.9% uptime. We’ve used the same company for 5 years and we don’t plan on changing this anytime soon.',
+      'Ja. ...und dann muss ich wieder den Code fixen den die AI geschrieben hat - mit Hilfe von AI. also Nein. Vielleicht sollte ich mich "Promt Engineer" nennen. Alles ist im Umbruch und das ist gut so.',
   },
   {
-    question: 'Can I update the website myself once it’s been built?',
+    question: 'Was mache ich in meiner Freizeit?',
     answer:
-      'Yes. We like to offer the ability for our clients to update the website themselves. We we’ll give you all the training and tools to be able to make website amendments. We use a easy to use platform called WordPress so you can add edit and delete content without paying us to do it for you.',
+      'Theorie: Ich lese offline- Bücher und Graphic Novels, Backe Laugenbräzeli, Photographiere und entwickle, Bastle mit physischen Werkzeuge etwas, Wanderungen im Berner Oberland... - Praxis: Ich habe 2 Kinder, sorry - ich habe eigenlich fast keine freie "me-Time" - see you at the Playground',
   },
   {
-    question: 'What if I don’t want to manage the website at all. Can you do it all for me?',
+    question: 'Wie macht man diesen coolen Aurora- Background-Effect?',
     answer:
-      'Yes, we can arrange a maintenance package to suit your needs. This can range from 1hr per month to 10 hours per month and we can discuss a package that’s right for you.',
-  },
+      'In einem Satz: Das ist ein simpler radial-gradient mit einer dynamischen color-rage variable in einem Array, welcher durch ein useMotionValue Framer-MotionHook smootly ersetzt und animiert, mirrored- & infinity repeated wird und einem useMotionTemplate als css propperty im backgroundImage definiert ist. Der React -useEffect Hook mit leerem dependancy array called einmalig die animate function. Okay zwei Sätze. Easy eigentlich.'
+  }
 ]
 
 import ArrowDropDownLineIcon from 'remixicon-react/ArrowDropDownLineIcon'
