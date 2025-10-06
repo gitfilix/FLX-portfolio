@@ -3,15 +3,23 @@
 import Heading from './sub/Heading'
 import Image from 'next/image'
 import { skillsData } from '@/app/assets'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
-    
     return (
         <div className='min-h-screen flex flex-col items-center justify-center gap-y-20 px-96'>
             <Heading headertext={'my Tools & Skills'} />
             <div className='w-full flex justify-between flex-wrap gap-x-8 gap-y-10 lg:gap-y-6'>
                 {skillsData.map((item, i) => (
-                <div key={i} className='flex item-center justify-center gap-x-3 rounded-xl border border-yellow-300  bg-amber-400 px-5 py-2 lg:px-2'>
+                <motion.div 
+                    key={i} 
+                    className='flex item-center justify-center gap-x-3 rounded-xl border border-yellow-300 bg-transparent px-5 py-2 lg:px-2'
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.4 + i * 0.07 }}
+                    viewport={{ margin: '50px', once: true }} // starting point smoother
+                    whileHover={{ scale: 1.1 }}
+                    >
                     <Image
                         src={item.icon}
                         alt={'skills image'}
@@ -19,8 +27,8 @@ const Skills = () => {
                         height={100}
                         className='h-auto, w-[50px]'
                     />
-                    <caption className='text-left py-2 text-gray-600 ' >{item.name}</caption>
-                </div>
+                    <span className='text-left py-2 text-amber-300 flex items-center' >{item.name}</span>
+                </motion.div>
                 ))}
             </div>
         </div>    

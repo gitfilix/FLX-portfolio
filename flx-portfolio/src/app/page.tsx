@@ -36,8 +36,8 @@ export default function Home() {
       className='relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 text-gray-200'
       >
         <Hero />
-        {/* <AboutMe /> */}
-        {/* <Experience /> */}
+        <AboutMe />
+        <Experience />
         <Skills />
 
              {/* <div className='w-full p-6
