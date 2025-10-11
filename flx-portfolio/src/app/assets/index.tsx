@@ -56,16 +56,20 @@ export const aboutText =
   " Hallo, ich bin Felix, ein Web Frontend Engineer, WebDude & Nerd.. Ich code HTML, CSS, JavaScript, React, NextJS, TypeScript  to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications. Und noch mehr text über mich wahrscheinlich in Deutsch."
 // End of About Me
 
-// Experience
+// Experience Work
 export const experienceData = [
   {
-    year: 2002,
-    title: 'Foundation and Basics',
+    year: 2015,
+    year2: 2025,
+    title: 'Tamedia',
     education:
-      'School of Audio Engineering: Multimedia Producer Diploma',
+      'Fronend Engineer',
     experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
+      'React Fronend für SPA, PWA, Deskop Websites: tagesanzeiger, der Bund, Berner Zeitung, TdG, 24Heures, 20min, LeMatin, usw',
+      'Javascript, NodeJS, NextJS, TypeScript, ES6 - ES2017, SASS, SCSS, MongoDB, Express, APIs, Legacy Systeme',
+      'Scrum Meetings in Englisch vorbereiten und durchführen',
+      'Zusammenarbeit mit Product Ownern, Stakeholders, UX und Designers sowie anderen Development Teams',
+      'Clean Code, Code Reviews, Unit-, & visual-, Testing, code maintainance'
     ],
   },
   {
@@ -115,6 +119,129 @@ export const experienceData = [
       'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
     ],
   },
+]
+
+// Education 
+export const educationData = [
+  {
+    year: 2001,
+    year2: 2002,
+    title: 'SAE',
+    educationTitle:
+      'School of Audio Engineering: Multimedia Producer Diploma',
+    learnedSkills: [
+      'Basic HTML & CSS, PHP, CD Authoring und Cinema 4D.',
+      'Lingo, Macromedia- & Adobe Tools: Photoshop und Illustrator, Datenbankanbindungen',
+      'Persönliche Webseiten für Private oder Blogs.',
+    ],
+  },
+  // {
+  //   year: 2006,
+  //   title: 'Unix Kurse',
+  //   educationTitle:
+  //     'HP Unix, Sun Solaris',
+  //   learnedSkills: [
+  //     'Unix Kurse und Zertifikate Sytem Administration 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
+  //     'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+  //   ],
+  // },
+  // {
+  //   year: 2008,
+  //   title: 'Linux System Administor I',
+  //   educationTitle:
+  //     'HSR Technische Hochschule, Rapperswil',
+  //   learnedSkills: [
+  //     'Linux System Administration LPIC 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
+  //     'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+  //   ],
+  // },
+  // {
+  //   year: 2012,
+  //   title: 'Linux System Administor II',
+  //   educationTitle:
+  //     'HSR Technische Hochschule, Rapperswil',
+  //   learnedSkills: [
+  //     'Internships: Secure internships with tech companies or design agencies.',
+  //     'Contribute to Open Source: Collaborate on open-source projects.',
+  //   ],
+  // },
+  {
+    year: 2012,
+    title: 'Web Entwicklung Update',
+    educationTitle: 'Web-Entwicklung & Screen Design',
+    learnedSkills: [
+      'HTML-5, CSS, JavaScript, JQuery, Cross-Browser, Prototyping, Templating,',
+      'Semantic & valid Coding, MVC, MVVM, Mobile First, responsive-& liquid Design',
+    ],
+  },
+  {
+    year: 2012,
+    year2: 2014,
+    title: 'Selbststudium',
+    educationTitle: 'Nerd',
+    learnedSkills: [
+      'HTML-5, CSS-3, SASS, JQuery, Design Frameworks, Cross-Browser Testing, Prototyping, Templating, Navigationskonzeption, Grid- Systeme',
+      'Semantic & valid Coding, MVC, MVVM, Mobile First, responsive- Design, ColdFusion, SQL, Libraries',
+      'Kundenprojekte, Liebhaberprojekte, Schulprojekte'
+    ],
+  },
+  {
+    year: 2012,
+    year2: 2014,
+    title: 'eidg. dipl Techniker Visuelle Kommunikation',
+    educationTitle: 'TSM: Medienwirtschaft und Medienmanagement',
+    learnedSkills: [
+      'Technisches Medienmanagement, Marketing, Projektmanagement, visuelle Kommunikation, Innovation, Fi-Bu Kalkulation, Social media',
+      'Integration, Print- & Web Produktion, Qualitätsmanagement, Qualitätsmanagement'
+    ],
+  },
+   {
+    year: 2015,
+    title: 'Training: JavaScript Update, Kerala India',
+    educationTitle: 'Javascript Training',
+    learnedSkills: [
+      'Javascript OOP, MVC, MVVM, JS Handlebars, KnockoutJS, Databinding, AJAX',
+    ],
+  },
+   {
+    year: 2015,
+    year2: 2016,
+    title: 'CAS: Front End Engineering',
+    educationTitle: 'Hochschule für Technik: Frontend Engineer CAS',
+    learnedSkills: [
+      'NodeJS, Rest Services, Software Engineering mit JS, Testing',
+      'Single Page Application mit Angular, Web optimierungen, Web App User experience',
+      'New Frontend Trends, Start- und Abschlussprojekt, Prüfung'
+    ],
+  },
+  {
+    year: 2016,
+    title: 'Online: React Training',
+    educationTitle: 'React JS for Webdevs',
+    learnedSkills: [
+      'Life Cycle Methods, React components in 2016',
+    ],
+  },
+   {
+    year: 2020,
+    title: 'Online: MERN Fullstack',
+    educationTitle: 'MERN Fullstack Guide',
+    learnedSkills: [
+      'React, NodeJS, MongoDB, Express, GraphQL, TypeScript',
+    ],
+  },
+   {
+    year: 2022,
+    year2: 2023,
+    title: 'CAS: Front End Engineering Avanced',
+    educationTitle: 'Hochschule für Technik: Advance Frontend Engineer CAS',
+    learnedSkills: [
+      'Design Systems, CSS-Trends, Figma, NextJs, TypeScript. React Hooks, PWA, APIs, Data- & Statemanagement',
+      'Cloud Dev Ops: Login & Security im Frondend, OICD, CI /CD Pipelines, Automated Testing, Cloud Function and Applications',
+      'Leadership: Process Communication Model, zwischenmenschliche Kommunikation',
+      'Abschlussprojekt: Twitter -Clone mit Auth, Deployment, Testing, Security & Präsentation'
+    ],
+  }
 ]
 
 // Skills
@@ -222,6 +349,14 @@ export const questions = [
       'In den letzten 10 Jahren habe ich für die grössten kommerziellen Newsportale der Schweiz gearbeitet. Mein Code wird also täglich auf hunderttausenden Clients ausgeführt (tagesanzeiger.ch, 20min, derbund.ch usw). Es ist aber nicht "nur mein code", jedoch unsere Codebase. Da dieser in privaten Repositories gehalten wird ist er nicht öffentlich zugänglich. Meine älteren produktive Projekte und Side-Projects sind teilweise online, aber natürlich nicht mehr state-of-the-art.',
   },
   {
+    question: 'Warum ist der Look & Feel dieser Seite verspielt und visueller Effeke? Ein seriöser Fronend Engineer erstellt doch nicht ein solches Portfolio.',
+    answer:
+    'Das ist wortwörtlich Ansichtssache.\n\n' + 
+  'Persönlich: Wenn ich in der Freizeit eine Portfolio-Webpage erstelle, dann sollte es wenigstens visuell ansprechend sein und ich möchte eine neue Technologie dazulernen. Hier "Framer-Motion".\n\n' +
+  'Technische Erklärung: Lange Zeit konnte man fast keine visuellen Effekte mit ReactJS erstellen, sondern konnte nur die CSS Animationen verwenden. Nun kann man wieder mit JS / React kombinieren ohne markanten Performance-losses.\n\n' +
+  'But seriously: Die anspruchsvolle Arbeit dieser Page ist TypeScript, Linter (Biome-) Setup, Deployment-Pipeline setup, tailwind und postcss-confuration. Dann darf auch ein bisschen Spass bei den Animationen sein?'
+  },
+  {
     question: 'Wie würde ich meine Persönlichkeit beschreiben?',
     answer:
       'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😊 Kann auch mit Nicht-Techies ganz gut kommunizieren und möchte am grossen ganzen mitarbeiten. Ich kann auch Kochen und Backen',
@@ -273,44 +408,29 @@ import QuestionAnswerLineIcon from 'remixicon-react/QuestionAnswerLineIcon'
 
 export const navbarData = [
   {
-    id: 'home',
+    id: 'hero',
     name: 'Home',
     icon: <Home5LineIcon />,
   },
   {
-    id: 'about',
+    id: 'aboutme',
     name: 'About',
     icon: <UserLineIcon />,
   },
   {
     id: 'experience',
-    name: 'MyRoad',
+    name: 'Erfahrung',
     icon: <HistoryLineIcon />,
+  },
+  {
+    id: 'education',
+    name: 'Ausbildung',
+    icon: <UserStarLineIcon />,
   },
   {
     id: 'skills',
     name: 'Skills',
     icon: <BriefcaseLineIcon />,
-  },
-  {
-    id: 'reviews',
-    name: 'Reviews',
-    icon: <UserStarLineIcon />,
-  },
-  {
-    id: 'projects',
-    name: 'Projects',
-    icon: <ProjectorLineIcon />,
-  },
-  {
-    id: 'pricing',
-    name: 'Pricing',
-    icon: <PriceTag3LineIcon />,
-  },
-  {
-    id: 'contact',
-    name: 'Contact',
-    icon: <ContactsBook2LineIcon />,
   },
   {
     id: 'questions',

@@ -6,3 +6,8 @@
     --breakpoint-lg: 1150px;
     --breakpoint-xl: 1400px;
 }
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}

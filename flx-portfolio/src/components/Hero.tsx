@@ -38,52 +38,66 @@ const Hero = () => {
   const rotateX = useTransform(ySpring, [0, innerHeight], [10, -50])
 
 
-  return (
-      <div className="h-screen grid, place-items-center" onMouseMove={handleMouseMove} onMouseEnter={handleMouseEnter}>
-          <div>
-              <div className='flex flex-col items-center justify-center  gap-y-3 font-light capitalize'>
-                  <motion.div className='flex item-center justify-center' style={{
-                    rotateX: mouseMove ? rotateX : 0,
-                    rotateY: mouseMove ? rotateY : 0,
-                    transition: '0.1s'
-                  }}>
-                      <Image 
-                        // src={'/person.png'} 
-                        src={'/testi.jpg'} 
-                        alt='me' width={400} 
-                        height={400} 
-                        priority={true}
-                        className='h-auto w-[150px]'
-                        />
-                      <motion.span 
-                        className="absolute text-3xl, font-semibold text-white"
-                        initial={{ scale: 0}}
-                        animate={{ 
-                          opacity: buttonHover ? 0 : 1, 
-                          scale: buttonHover ? 2 : 0,
-                          y: buttonHover ? 30 : 0
-                        }}
-                        transition={{ opacity: { delay: 0.3 }}}
-                        >Hi There 👋</motion.span>
-                  </motion.div>
-                  <h1 className='text-center text-4xl font-bold tracking-wider text-gray-100 sm:text-2xl'>My Name is Felix 😊</h1>
-                  <p className='text-lg tracking-wider text-gray-500'>I like Animations..</p>
-              </div>
-              <div>
-               {/* <a 
-                href='#' 
-                className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
-                onMouseEnter={() => setButtonHover(true)}
-                onMouseLeave={() => setButtonHover(false)}
-               >my Projects</a> */}
-              </div>
-              <a href='#' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
+    return (
+    <section
+      id="hero"
+      className="h-screen grid place-items-center"
+      onMouseMove={handleMouseMove}
+      onMouseEnter={handleMouseEnter}
+    >
+      <div>
+        <motion.div
+          initial={{ opacity: 0, y: -100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="flex flex-col items-center justify-center gap-y-3 font-light capitalize"
+        >
+          <motion.div
+            className="flex items-center justify-center"
+            style={{
+              rotateX: mouseMove ? rotateX : 0,
+              rotateY: mouseMove ? rotateY : 0,
+              transition: '0.1s',
+            }}
+          >
+            <Image
+              src={'/felix_400_alpha.png'}
+              alt="Felix the Hero Image"
+              width={400}
+              height={400}
+              priority={true}
+              className="h-auto w-[150px]"
+            />
+            <motion.span
+              className="absolute text-3xl font-semibold text-white"
+              initial={{ scale: 0 }}
+              animate={{
+                opacity: buttonHover ? 0 : 1,
+                scale: buttonHover ? 2 : 0,
+                y: buttonHover ? -40 : 0,
+              }}
+              transition={{ opacity: { delay: 0.4 } }}
+            >
+              Hi There 👋 !
+            </motion.span>
+          </motion.div>
+          <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
+            Ich bin Felix
+          </h1>
+          <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
+            Ein Frontend -Dude mit Passion 🤗
+          </p>
+        </motion.div>
+        <div>
+          <a href='#' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
                 onMouseEnter={() => setButtonHover(true)}
                 onMouseLeave={() => setButtonHover(false)}
               >Contact me</a>
-          </div>
+        </div>
       </div>
+    </section>
   )
 }
 
 export default Hero
+

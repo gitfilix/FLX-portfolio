@@ -8,11 +8,11 @@ import { aboutData, aboutText, downloadIcon, arrowLeftIcon } from '@/app/assets'
 
 const AboutMe = () => {
     return (
-        <div className='min-h-screen px-96 flex flex-col items-center justify-center'>
+        <div className='min-h-screen px-96 flex flex-col items-center justify-center' id='aboutme'>
             <Heading headertext={'About Me'}/>
             <div className='w-full flex items-center justify-between md:justify-center'>
                 <Image
-                    src={'/fiilix_sw_500.jpg'}
+                    src={'/felix_retrofuture_400.jpg'}
                     alt='me'
                     width={400}
                     height={200}
