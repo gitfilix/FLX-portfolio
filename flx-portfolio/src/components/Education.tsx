@@ -8,7 +8,7 @@ import { motion, useMotionValue } from 'framer-motion'
 const Education = () => {
 
     return (
-        <div className='py-20 px-96 relative' id='education'>
+        <section className='py-20 px-96 relative' id='education'>
             <Heading headertext={'Education: Ausbildung'} />
             {/* <div className='w-full
                  xs:bg-amber-200 
@@ -61,7 +61,7 @@ const Education = () => {
                 </motion.div>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
 
