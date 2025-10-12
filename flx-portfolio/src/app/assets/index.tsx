@@ -26,7 +26,7 @@ import CupFillIcon from 'remixicon-react/CupFillIcon'
 export const aboutData = [
   {
     title: 'Github Commits',
-    amount: 248,
+    amount: 648,
     icon: <GithubFillIcon />,
   },
   {
@@ -36,12 +36,12 @@ export const aboutData = [
   },
   {
     title: 'New Bugs deployed',
-    amount: 46,
+    amount: 36,
     icon: <PulseLineIcon />,
   },
   {
     title: 'Coffees during workhours',
-    amount: 307,
+    amount: 407,
     icon: <CupFillIcon />,
   },
 ]
@@ -53,7 +53,11 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hallo, ich bin Felix, ein Web Frontend Engineer, WebDude & Nerd.. Ich code HTML, CSS, JavaScript, React, NextJS, TypeScript  to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications.  Here comes more text. wahrscheinlich in Deutsch. to build functional and responsive web applications. Und noch mehr text über mich wahrscheinlich in Deutsch."
+  ` Hallo, ich bin Felix, ein Web Frontend Engineer, Web-Dude und Nerd... oder etwas professioneller formuliert: 
+Ein passionierter Frontend Engineer bei Tamedia mit Leidenschaft für moderne Webentwicklung. Verbinde drei zentrale Aspekte: 
+visuell ansprechende User Experience, wartbaren Code und zufriedene Stakeholder.
+Technische Begeisterung trifft auf kommunikative Kompetenz. Übersetze zwischen Entwicklung, Design und Business – komplexe Anforderungen werden zu verständlichen Konzepten.
+Fokus auf moderne Frontend-Architekturen mit JavaScript-Technologien, Design Systems und aktuellen Frameworks. Kontinuierliche Weiterbildung und aktiver Wissenstransfer im Team.`
 // End of About Me
 
 // Experience Work
@@ -61,7 +65,7 @@ export const experienceData = [
   {
     year: 2015,
     year2: 2025,
-    title: 'Tamedia',
+    title: 'Tamedia AG, Zürich',
     education:
       'Fronend Engineer',
     experience: [
@@ -73,50 +77,35 @@ export const experienceData = [
     ],
   },
   {
-    year: 2008,
-    title: 'Linux System Administor I',
+    year: 2013,
+    year2: 2015,
+    title: 'Webkanal, Bern',
     education:
-      'HSR Technische Hochschule, Rapperswil',
+      'Freelancer Webentwickler',
     experience: [
-      'Linux System Administration LPIC 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+      'Webprojekte und Kundenprojekte: Responsive Webprojekte mit CMS', 
+      'Projekte mit Kunden von konzipiere, planen & umsetzen.',
+      'HTML-5, CSS-3, SEO, ColdFusion, Templating, JQuery, JSON, SQL, MySQL, Responsive Design',
     ],
   },
   {
-    year: 2012,
-    title: 'Linux System Administor II',
+    year: 2014,
+    title: 'Euro-26, GmbH',
     education:
-      'HSR Technische Hochschule, Rapperswil',
+      'IT -& Webprojektleiter',
     experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
+      'Wordpress Migrationen, DB Migration, IT Projekte.. usw',
+      'Schnelle, flexible und pragmatische Lösungen zu finden & implementieren',
     ],
   },
   {
-    year: 2008,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    year: 2009,
+    year2: 2012,
+    title: 'Identitas AG, Bern',
+    education: 'System - & Webadministrator',
     experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
-    ],
-  },
-  {
-    year: 2020,
-    title: 'Frontend Stuff',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
-    experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
-    ],
-  },
-  {
-    year: 2022,
-    title: 'Frontend Stuff II',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
-    experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
+      'IT System Administrator Linux, IBM i5 & Windows Server Architektur',
+      'Betrieb TVD (Tierverkehrsdatenbank) und Installation von Web- Applikationen',
     ],
   },
 ]
@@ -135,36 +124,36 @@ export const educationData = [
       'Persönliche Webseiten für Private oder Blogs.',
     ],
   },
-  // {
-  //   year: 2006,
-  //   title: 'Unix Kurse',
-  //   educationTitle:
-  //     'HP Unix, Sun Solaris',
-  //   learnedSkills: [
-  //     'Unix Kurse und Zertifikate Sytem Administration 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
-  //     'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
-  //   ],
-  // },
-  // {
-  //   year: 2008,
-  //   title: 'Linux System Administor I',
-  //   educationTitle:
-  //     'HSR Technische Hochschule, Rapperswil',
-  //   learnedSkills: [
-  //     'Linux System Administration LPIC 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
-  //     'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
-  //   ],
-  // },
-  // {
-  //   year: 2012,
-  //   title: 'Linux System Administor II',
-  //   educationTitle:
-  //     'HSR Technische Hochschule, Rapperswil',
-  //   learnedSkills: [
-  //     'Internships: Secure internships with tech companies or design agencies.',
-  //     'Contribute to Open Source: Collaborate on open-source projects.',
-  //   ],
-  // },
+  {
+    year: 2006,
+    title: 'Unix Kurse',
+    educationTitle:
+      'HP Unix, Sun Solaris',
+    learnedSkills: [
+      'Unix Kurse und Zertifikate Sytem Administration 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
+      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+    ],
+  },
+  {
+    year: 2008,
+    title: 'Linux System Administor I',
+    educationTitle:
+      'HSR Technische Hochschule, Rapperswil',
+    learnedSkills: [
+      'Linux System Administration LPIC 1 & 2: Kernel, Shells, Runlevels, RAID, LVM, DNS, Security, Webdienst',
+      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+    ],
+  },
+  {
+    year: 2012,
+    title: 'Linux System Administor II',
+    educationTitle:
+      'HSR Technische Hochschule, Rapperswil',
+    learnedSkills: [
+      'Internships: Secure internships with tech companies or design agencies.',
+      'Contribute to Open Source: Collaborate on open-source projects.',
+    ],
+  },
   {
     year: 2012,
     title: 'Web Entwicklung Update',
@@ -216,10 +205,11 @@ export const educationData = [
   },
   {
     year: 2016,
-    title: 'Online: React Training',
+    title: 'Online & Onside: React Trainings',
     educationTitle: 'React JS for Webdevs',
     learnedSkills: [
-      'Life Cycle Methods, React components in 2016',
+      'Life Cycle Methods, React components, ES7, DataStructures, JSX, Webpack',
+      'React Router, Firebase, State Events, Date Fetching Libraries',
     ],
   },
    {
@@ -227,7 +217,7 @@ export const educationData = [
     title: 'Online: MERN Fullstack',
     educationTitle: 'MERN Fullstack Guide',
     learnedSkills: [
-      'React, NodeJS, MongoDB, Express, GraphQL, TypeScript',
+      'React 15, NodeJS, MongoDB, Mongoose, Express JS, GraphQL, TypeScript, React Hooks',
     ],
   },
    {
@@ -242,7 +232,7 @@ export const educationData = [
       'Abschlussprojekt: Twitter -Clone mit Auth, Deployment, Testing, Security & Präsentation'
     ],
   }
-]
+].reverse()
 
 // Skills
 export const skillsData = [
@@ -418,18 +408,18 @@ export const navbarData = [
     icon: <UserLineIcon />,
   },
   {
-    id: 'experience',
-    name: 'Erfahrung',
-    icon: <HistoryLineIcon />,
-  },
-  {
     id: 'education',
     name: 'Ausbildung',
-    icon: <UserStarLineIcon />,
+    icon: <ContactsBook2LineIcon />,
   },
   {
     id: 'skills',
     name: 'Skills',
+    icon: <ProjectorLineIcon />,
+  },
+  {
+    id: 'experience',
+    name: 'Erfahrung',
     icon: <BriefcaseLineIcon />,
   },
   {

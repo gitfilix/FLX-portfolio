@@ -45,9 +45,9 @@ export default function Home() {
           <div>
             <Hero />
             <AboutMe />
-            <Experience />
             <Education />
             <Skills />
+            <Experience />
             <Questions />
           </div>
         </motion.div>

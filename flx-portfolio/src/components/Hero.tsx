@@ -82,10 +82,10 @@ const Hero = () => {
             </motion.span>
           </motion.div>
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            Ich bin Felix
+            Hallo, ich bin Felix
           </h1>
           <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            Ein Frontend -Dude mit Passion 🤗
+            Ein Frontend -Dude mit 😎  
           </p>
         </motion.div>
         <div>
