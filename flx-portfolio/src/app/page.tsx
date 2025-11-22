@@ -22,15 +22,15 @@ export default function Home() {
   const backgroundImage = useMotionTemplate`radial-gradient(100% 180% at 50% 0%, #010207 25%, ${colorChange})`
 
   // TODO: Bring this cool effects back
-  // useEffect(() => {
-  //   animate(colorChange, colorRange, {
-  //     ease: 'easeInOut',
-  //     duration: 12,
-  //     repeat: Infinity,
-  //     repeatType: 'mirror'
-  //   }
-  //   )
-  // }, [])
+  useEffect(() => {
+    animate(colorChange, colorRange, {
+      ease: 'easeInOut',
+      duration: 12,
+      repeat: Infinity,
+      repeatType: 'mirror'
+    }
+    )
+  }, [])
 
 
   return (
