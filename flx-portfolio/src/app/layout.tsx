@@ -8,8 +8,8 @@ const outfit = Outfit({
 
 
 export const metadata: Metadata = {
-  title: "FiLiX Portfolio",
-  description: "Portfolio website for FLX",
+  title: "Felix Adam Portfolio",
+  description: "Portfolio website - Felix Adam",
 };
 
 export default function RootLayout({
