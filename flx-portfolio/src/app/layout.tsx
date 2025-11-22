@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   description: "Portfolio website - Felix Adam",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,6 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
+      {/* NOTE: for the moment I like to not index the page */}
+      <meta name="robots" content="noindex"></meta>
       <body
         className={`${outfit.className}  antialiased`}
       >

@@ -1,0 +1,3 @@
+# for the moment dont index the content for privacy reason
+User-agent: *
+Disallow: /
