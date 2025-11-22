@@ -26,22 +26,22 @@ import CupFillIcon from 'remixicon-react/CupFillIcon'
 export const aboutData = [
   {
     title: 'Github Commits',
-    amount: 648,
+    amount: 2048,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Bugs fixed',
-    amount: 227,
+    amount: 487,
     icon: <BugLineIcon />,
   },
   {
-    title: 'New Bugs deployed',
-    amount: 36,
+    title: 'unfinished Side Projects',
+    amount: 136,
     icon: <PulseLineIcon />,
   },
   {
     title: 'Coffees during workhours',
-    amount: 407,
+    amount: 428,
     icon: <CupFillIcon />,
   },
 ]
@@ -234,55 +234,67 @@ export const educationData = [
   }
 ].reverse()
 
-// Skills
+// Skills section 
 export const skillsData = [
-  {
-    name: 'VS Code',
-    icon: '/skills/vscode.png',
-  },
   {
     name: 'HTML',
     icon: '/skills/html.png',
   },
   {
     name: 'CSS',
-    icon: '/skills/css.png',
+    icon: '/skills/CSS3.png',
   },
   {
     name: 'ES 2017',
     icon: '/skills/js.png',
   },
   {
-    name: 'TailwindCSS',
-    icon: '/skills/tailwind.png',
+    name: 'Tailwind',
+    icon: '/skills/tailwindcss.png',
   },
   {
     name: 'Vite',
     icon: '/skills/vite.png',
   },
   {
-    name: 'ReactJS',
+    name: 'Coffee Script',
+    icon: '/skills/CoffeeScript.png',
+  },
+  {
+    name: 'React',
     icon: '/skills/react.png',
   },
   {
     name: 'TypeScript',
-    icon: '/skills/ts.png',
+    icon: '/skills/typescript.png',
   },
   {
-    name: 'CSS Modules',
+    name: 'Modules',
     icon: '/skills/css_modules.png'
   },
   {
-    name: 'Photoshop',
-    icon: '/skills/photoshop.png',
+    name: 'GraphQL',
+    icon: '/skills/GraphQL.png'
   },
   {
     name: 'Framer Motion',
     icon: '/skills/framer.png',
   },
   {
-    name: 'NextJS',
+    name: 'Docker',
+    icon: '/skills/Docker.png',
+  },
+  {
+    name: 'Next JS',
     icon: '/skills/nextjs.png',
+  },
+  {
+    name: 'Astro',
+    icon: '/skills/astro.png',
+  },
+  {
+    name: 'Twenty FW',
+    icon: '/skills/20.png',
   },
   {
     name: 'Astro',
@@ -297,12 +309,44 @@ export const skillsData = [
     icon: '/skills/mongodb.png',
   },
   {
-    name: 'MySQL (todo)',
-    icon: '/skills/mongodb.png',
+    name: 'Mongoose',
+    icon: '/skills/mongoose.png',
+  },
+  {
+    name: 'MySQL',
+    icon: '/skills/mySQL.png',
+  },
+  {
+    name: 'eslint',
+    icon: '/skills/eslint.png',
   },
   {
     name: 'Github',
     icon: '/skills/github.png',
+  },
+  {
+    name: 'Playwrite',
+    icon: '/skills/Playwrite.png',
+  },
+  {
+    name: 'Terraform',
+    icon: '/skills/terraform.png',
+  },
+  {
+    name: 'Storybook',
+    icon: '/skills/Storybook.png',
+  },
+  {
+    name: 'Figma',
+    icon: '/skills/figma.png',
+  },
+  {
+    name: 'vi -yes vi!',
+    icon: '/skills/vi.png',
+  },
+  {
+    name: 'SASS',
+    icon: '/skills/Sass.png',
   },
 ]
 
@@ -326,7 +370,7 @@ export const questions = [
   {
     question: 'Warum arbeite ich gerne als Frontend Engineer?',
     answer:
-      'It takes approximately 6-10 weeks to build a website from start to finish, providing we have all the information from you. Our full web design process is broken down here. Generally speaking, the website will only take a long time if we are still waiting for text and images from yourself.',
+      'Komplexe Anforderungen aus Entwicklung, Design und Business setze ich in verständlichen, nachhaltigen und wartbaren Code um. Im Team fördere ich den Wissensaustausch, bringe Empathie und Pragmatismus ein, um die Ziele gemeinsam zu erreichen.',
   },
   {
     question: 'Warum braucht es Frontend Engeneering?',
@@ -339,17 +383,17 @@ export const questions = [
       'In den letzten 10 Jahren habe ich für die grössten kommerziellen Newsportale der Schweiz gearbeitet. Mein Code wird also täglich auf hunderttausenden Clients ausgeführt (tagesanzeiger.ch, 20min, derbund.ch usw). Es ist aber nicht "nur mein code", jedoch unsere Codebase. Da dieser in privaten Repositories gehalten wird ist er nicht öffentlich zugänglich. Meine älteren produktive Projekte und Side-Projects sind teilweise online, aber natürlich nicht mehr state-of-the-art.',
   },
   {
-    question: 'Warum ist der Look & Feel dieser Seite verspielt und visueller Effeke? Ein seriöser Fronend Engineer erstellt doch nicht ein solches Portfolio.',
+    question: 'Warum ist der Look & Feel dieser Seite verspielt und visueller Effeke? Ein seriöser Fronend Engineer baut doch nicht so ein Portfolio- One Pager',
     answer:
     'Das ist wortwörtlich Ansichtssache.\n\n' + 
   'Persönlich: Wenn ich in der Freizeit eine Portfolio-Webpage erstelle, dann sollte es wenigstens visuell ansprechend sein und ich möchte eine neue Technologie dazulernen. Hier "Framer-Motion".\n\n' +
   'Technische Erklärung: Lange Zeit konnte man fast keine visuellen Effekte mit ReactJS erstellen, sondern konnte nur die CSS Animationen verwenden. Nun kann man wieder mit JS / React kombinieren ohne markanten Performance-losses.\n\n' +
-  'But seriously: Die anspruchsvolle Arbeit dieser Page ist TypeScript, Linter (Biome-) Setup, Deployment-Pipeline setup, tailwind und postcss-confuration. Dann darf auch ein bisschen Spass bei den Animationen sein?'
+  'But seriously: Die anspruchsvolle Arbeit dieser Page ist TypeScript, Linter (Biome-) Setup, Deployment-Pipeline setup, tailwind und postcss-configuration. Dann muss auch noch etwas Spass dabei sein.'
   },
   {
     question: 'Wie würde ich meine Persönlichkeit beschreiben?',
     answer:
-      'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😊 Kann auch mit Nicht-Techies ganz gut kommunizieren und möchte am grossen ganzen mitarbeiten. Ich kann auch Kochen und Backen',
+      'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😊 Kann auch mit Nicht-Techies ganz gut kommunikation und Scrum kann ich auch mündlich und schriftlich.',
   },
   {
     question: 'Mit welchen Tools ist diese Webpage erstellt?',
@@ -369,12 +413,12 @@ export const questions = [
   {
     question: 'Was mache ich in meiner Freizeit?',
     answer:
-      'Theorie: Ich lese offline- Bücher und Graphic Novels, Backe Laugenbräzeli, Photographiere und entwickle, Bastle mit physischen Werkzeuge etwas, Wanderungen im Berner Oberland... - Praxis: Ich habe 2 Kinder, sorry - ich habe eigenlich fast keine freie "me-Time" - see you at the Playground',
+      'Theorie: Ich lese offline- Bücher und Graphic Novels, Backe Laugenbräzeli, Photographiere, Code an Side-projects, Bastle mit physischen Werkzeuge etwas, Wanderungen im Berner Oberland... - Praxis: Ich habe 2 Kinder, sorry - ich habe eigenlich fast keine freie "me-Time" - see you at the Playground',
   },
   {
-    question: 'Wie macht man diesen coolen Aurora- Background-Effect?',
+    question: 'Wie macht man diesen total coolen Aurora- Background-Effect?',
     answer:
-      'In einem Satz: Das ist ein simpler radial-gradient mit einer dynamischen color-rage variable in einem Array, welcher durch ein useMotionValue Framer-MotionHook smootly ersetzt und animiert, mirrored- & infinity repeated wird und einem useMotionTemplate als css propperty im backgroundImage definiert ist. Der React -useEffect Hook mit leerem dependancy array called einmalig die animate function. Okay zwei Sätze. Easy eigentlich.'
+      'In einem Satz: Das ist ein simpler radial-gradient mit einer dynamischen color-rage variable in einem Array, welcher durch ein useMotionValue Framer-MotionHook smootly ersetzt und animiert, mirrored- & infinity repeated wird und einem useMotionTemplate als css propperty im backgroundImage definiert ist. Der React -useEffect Hook mit leerem dependancy array called einmalig die animate function. Okay zwei Sätze aber sonst ganz Easy eigentlich.'
   }
 ]
 
