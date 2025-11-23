@@ -8,7 +8,7 @@ import { aboutData, aboutText, downloadIcon, arrowLeftIcon } from '@/app/assets'
 
 const AboutMe = () => {
     return (
-        <div className='min-h-screen px-96 flex flex-col items-center justify-center' id='aboutme'>
+        <div className='min-h-screen flex flex-col items-center justify-center' id='aboutme'>
             <Heading headertext={'About Me'}/>
             <div className='w-full max-w-6xl flex flex-col md:flex-row items-center md:items-start justify-between gap-8 md:gap-12'>
                 <Image

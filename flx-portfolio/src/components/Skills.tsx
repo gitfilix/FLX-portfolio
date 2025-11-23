@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const Skills = () => {
     return (
-        <section className='min-h-screen flex flex-col items-center justify-center gap-y-12 px-4 sm:px-8 md:px-20 lg:px-40 xl:px-96' id='skills'>
+        <section className='min-h-screen flex flex-col items-center justify-center gap-y-12 px-4' id='skills'>
             <Heading headertext={'my Tools & Skills'} />
             <div className='w-full flex justify-center sm:justify-between flex-wrap gap-x-4 gap-y-6 lg:gap-y-6'>
                 {skillsData.map((item, i) => (

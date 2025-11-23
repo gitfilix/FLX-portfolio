@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 const Education = () => {
 
     return (
-        <section className='py-20 px-96 relative' id='education'>
+        <section className='py-20 relative' id='education'>
             <Heading headertext={'Education: Ausbildung'} />
             <Image
                 src={'/experience.jpg'}

@@ -1,5 +1,6 @@
 // lets force-render that all client side 
 'use client'
+import Toggle from '@/components/sub/Toggle'
 import Navbar from '@/components/Navbar'
 import Hero from "@/components/Hero"
 import AboutMe from '@/components/AboutMe'
@@ -22,15 +23,15 @@ export default function Home() {
   const backgroundImage = useMotionTemplate`radial-gradient(100% 180% at 50% 0%, #010207 25%, ${colorChange})`
 
   // TODO: Bring this cool effects back
-  useEffect(() => {
-    animate(colorChange, colorRange, {
-      ease: 'easeInOut',
-      duration: 12,
-      repeat: Infinity,
-      repeatType: 'mirror'
-    }
-    )
-  }, [])
+  // useEffect(() => {
+  //   animate(colorChange, colorRange, {
+  //     ease: 'easeInOut',
+  //     duration: 12,
+  //     repeat: Infinity,
+  //     repeatType: 'mirror'
+  //   }
+  //   )
+  // }, [])
 
 
   return (
@@ -41,15 +42,17 @@ export default function Home() {
         }}
         className='relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 text-gray-200'
         >
-          <Navbar/>
-          <div>
-            <Hero />
-            <AboutMe />
-            <Education />
-            {/* <Skills /> */}
-            <Experience />
-            <Questions />
-          </div>
+          <Toggle>
+          <Navbar />
+            <div>
+              <Hero />
+              <AboutMe />
+              <Education />
+              <Skills />
+              <Experience />
+              <Questions />
+            </div>
+          </Toggle>
         </motion.div>
     </section>
   )

@@ -5,7 +5,7 @@ import { questions } from '@/app/assets'
 
 const Questions = () => {
     return (
-        <section className='py-20 px-96' id='questions'>
+        <section className='py-20' id='questions'>
             <Heading headertext={'Fragen & Antworten'} />
             <div>
                 <ul className='flex flex-col gap-y-3'>

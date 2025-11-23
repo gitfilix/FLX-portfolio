@@ -74,25 +74,26 @@ const Hero = () => {
               animate={{
                 opacity: buttonHover ? 0 : 1,
                 scale: buttonHover ? 2 : 0,
-                y: buttonHover ? -40 : 0,
+                y: buttonHover ? -30 : 0,
               }}
-              transition={{ opacity: { delay: 0.4 } }}
-            >
-              Hi There 👋 !
+              transition={{ opacity: { delay: 0.43 } }}
+            ><span>
+              Perfect! 👍
+              </span>
             </motion.span>
           </motion.div>
-          <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            Hallo, ich bin Felix
+          <h1 className="text-center text-3xl normal-case font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors ">
+            Hallo, hier Felix.
           </h1>
-          <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            Ein Frontend -Dude mit 😎  
+          <p className="text-lg normal-case tracking-wider text- font-semibold text-gray-700 dark:text-gray-200 transition-colors">
+            Ein Frontend- Dev mit 😎 & ☕️
           </p>
         </motion.div>
         <div>
-          <a href='#' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
+          <a href='mailto: mailto.felix.adam@gmail.com' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
                 onMouseEnter={() => setButtonHover(true)}
                 onMouseLeave={() => setButtonHover(false)}
-              >Contact me</a>
+              >Kontakt</a>
         </div>
       </div>
     </section>
