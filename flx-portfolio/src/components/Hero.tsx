@@ -32,10 +32,10 @@ const Hero = () => {
   const ySpring = useSpring(y, {stiffness: 100, damping: 10 })
 
 
-  // if the mouse moves on the y axis: we transform from -30degrees to + 30degrees -> Tilt effect
+  // if the mouse moves on the y axis: we transform from -20degrees to + 20degrees -> Tilt effect
   const rotateY = useTransform(xSpring, [0, innerWidth], [-30, 30])
   // if the mouse moves on the x axis: we transform from 10degrees to -10 degrees -> horizontal effect
-  const rotateX = useTransform(ySpring, [0, innerHeight], [10, -50])
+  const rotateX = useTransform(ySpring, [0, innerHeight], [10, -10])
 
 
     return (
@@ -57,16 +57,16 @@ const Hero = () => {
             style={{
               rotateX: mouseMove ? rotateX : 0,
               rotateY: mouseMove ? rotateY : 0,
-              transition: '0.1s',
+              transition: '0.2s',
             }}
           >
             <Image
-              src={'/felix_400_alpha.png'}
+              src={'/felix_400_alpha_sq.png'}
               alt="Felix the Hero Image"
               width={400}
               height={400}
               priority={true}
-              className="h-auto w-[150px]"
+              className="h-auto w-[200px] sm:w-[400px]"
             />
             <motion.span
               className="absolute text-3xl font-semibold text-white"
@@ -74,9 +74,9 @@ const Hero = () => {
               animate={{
                 opacity: buttonHover ? 0 : 1,
                 scale: buttonHover ? 2 : 0,
-                y: buttonHover ? -40 : 0,
+                y: buttonHover ? -20 : 0,
               }}
-              transition={{ opacity: { delay: 0.4 } }}
+              transition={{ opacity: { delay: 0.25 } }}
             >
               Hi There 👋 !
             </motion.span>
