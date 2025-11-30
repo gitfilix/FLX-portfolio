@@ -22,6 +22,7 @@ const Navbar = () => {
                 <span className='font-light text-sm sm:text-2xl origin-bottom text-amber-100 sm:hidden'>Adam</span>
                 <span className='hidden sm:block w-max rotate-270 origin-bottom text-[26px] font-extralight tracking-widest'>Adam</span>
             </a>
+                <span className='sm:block w-max rotate-270 origin-bottom text-[16px] font-extralight tracking-widest text-amber-500'>- BETA -</span>
             <div className='flex flex-col gap-y-2 sm:gap-y-3'>
             {navbarData.map((item, i) => (
                 <a  href={`/#${item.id}`}
@@ -45,8 +46,8 @@ const Navbar = () => {
             ))}
             </div>
             <p className='relative flex items-center justify-center text-[12px] sm:text-[8px] text-gray-400 mt-3 w-full'>
-                <span className='absolute bottom-2 left-2 sm:bottom-4 sm:left-4 w-max hidden sm:flex items-center rotate-270 origin-left'>FLX Portfolio - 2025</span>
-                <span className='sm:hidden text-xs'>FLX Portfolio - 2025</span>
+                <span className='absolute bottom-2 left-2 sm:bottom-4 sm:left-4 w-max hidden sm:flex items-center rotate-270 origin-left'>FLX Portfolio - 2026</span>
+                <span className='sm:hidden text-md'>FLX Portfolio - 2026</span>
             </p>
         </div>
     )

@@ -47,9 +47,9 @@ const Hero = () => {
     >
       <div>
         <motion.div
-          initial={{ opacity: 0, y: -100 }}
+          initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 0.4 }}
           className="flex flex-col items-center justify-center gap-y-3 font-light capitalize"
         >
           <motion.div
@@ -73,27 +73,27 @@ const Hero = () => {
               initial={{ scale: 0 }}
               animate={{
                 opacity: buttonHover ? 0 : 1,
-                scale: buttonHover ? 2 : 0,
-                y: buttonHover ? -20 : 0,
+                scale: buttonHover ? 2.5 : 0,
+                y: buttonHover ? -180 : 0,
               }}
               transition={{ opacity: { delay: 0.25 } }}
             >
-              Hi There 👋 !
+             Let' Talk -or Write 👍!
             </motion.span>
           </motion.div>
-          <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            Hallo, ich bin Felix
+          <h1 className="text-center text-4xl font-bold tracking-wider text-gray-200 sm:text-2xl transition-colors normal-case">
+            Hallo, ich bin <span className="text-amber-300">Felix</span>
           </h1>
-          <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            Ein Frontend -Dude mit 😎  
+          <p className="text-lg tracking-wider text-gray-300 dark:text-gray-100 transition-colors">
+            Ein Frontend - Freak mit 😎
           </p>
+          <div className="flex items-center">
+            <a href='mailto: mailto.felix.adam@gmail.com' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
+                  onMouseEnter={() => setButtonHover(true)}
+                  onMouseLeave={() => setButtonHover(false)}
+                >Kontakt</a>
+          </div>
         </motion.div>
-        <div>
-          <a href='#' className='mt-7 block w-max rounded-lg bg-transparent border-1 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-800 transition-colors'
-                onMouseEnter={() => setButtonHover(true)}
-                onMouseLeave={() => setButtonHover(false)}
-              >Contact me</a>
-        </div>
       </div>
     </section>
   )

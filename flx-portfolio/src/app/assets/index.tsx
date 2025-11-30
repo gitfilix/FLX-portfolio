@@ -41,7 +41,7 @@ export const aboutData = [
   },
   {
     title: 'Coffees during workhours',
-    amount: 428,
+    amount: 1428,
     icon: <CupFillIcon />,
   },
 ]
@@ -53,11 +53,9 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  ` Hallo, ich bin Felix, ein Web Frontend Engineer, Web-Dude und Nerd... oder etwas professioneller formuliert: 
-Ein passionierter Frontend Engineer bei Tamedia mit Leidenschaft für moderne Webentwicklung. Verbinde drei zentrale Aspekte: 
-visuell ansprechende User Experience, wartbaren Code und zufriedene Stakeholder.
-Technische Begeisterung trifft auf kommunikative Kompetenz. Übersetze zwischen Entwicklung, Design und Business – komplexe Anforderungen werden zu verständlichen Konzepten.
-Fokus auf moderne Frontend-Architekturen mit JavaScript-Technologien, Design Systems und aktuellen Frameworks. Kontinuierliche Weiterbildung und aktiver Wissenstransfer im Team.`
+  `Ich bin ein Web Frontend Dev, Web-Dude oder auch einfach ein Nerd... oder etwas professioneller formuliert: 
+Ein passionierter Frontend Engineer bei Tamedia mit Leidenschaft für moderne Webentwicklung. Ich möchte drei zentrale Aspekte verbinden: 
+visuell ansprechende User Experience, wartbaren Code und zufriedene Stakeholder. Kurz: Problem-solver im Web.`
 // End of About Me
 
 // Experience Work
@@ -387,7 +385,7 @@ export const questions = [
     answer:
     'Das ist wortwörtlich Ansichtssache.\n\n' + 
   'Persönlich: Wenn ich in der Freizeit eine Portfolio-Webpage erstelle, dann sollte es wenigstens visuell ansprechend sein und ich möchte eine neue Technologie dazulernen. Hier "Framer-Motion".\n\n' +
-  'Technische Erklärung: Lange Zeit konnte man fast keine visuellen Effekte mit ReactJS erstellen, sondern konnte nur die CSS Animationen verwenden. Nun kann man wieder mit JS / React kombinieren ohne markanten Performance-losses.\n\n' +
+  'Technische Erklärung: Lange Zeit konnte man fast keine visuellen Effekte mit React-JS erstellen, sondern konnte "nur" die CSS Animationen verwenden (Natürlich, es gibt Libraries). Nun kann man wieder mit JS / React kombinieren ohne markanten Performance-losses.\n\n' +
   'But seriously: Die anspruchsvolle Arbeit dieser Page ist TypeScript, Linter (Biome-) Setup, Deployment-Pipeline setup, tailwind und postcss-configuration. Dann muss auch noch etwas Spass dabei sein.'
   },
   {
@@ -398,7 +396,7 @@ export const questions = [
   {
     question: 'Mit welchen Tools ist diese Webpage erstellt?',
     answer:
-      'Diese Page: NextJS, React, TypeScript, Framer Motion (for Fun! 😎), TailwindCSS (for pain! 🤔), Render yaml-pipeline',
+      'Diese Page: Next-JS, React, TypeScript, Framer Motion (for Fun! 😎), Tailwind-CSS, PostCS (for feeling the pain again! 🤔), Render hosting, yaml-pipeline',
   },
   {
     question: 'Was habe ich in den Jahren zwischen der Multimedia Ausbildung und Webapplikation entwickeln getan?',

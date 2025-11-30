@@ -10,20 +10,14 @@ const Experience = () => {
     return (
         <section className='py-20 px-96 relative' id='experience'>
             <Heading headertext={'Erfahrung - Arbeit'} />
-            {/* <div className='w-full
-                 xs:bg-amber-200 
-                 sm:bg-amber-600 
-                 md:bg-amber-900
-                 lg:bg-blue-400
-                 xl:bg-green-400'>da sollte immer da sein zum testen</div> */}
             <Image
                 src={'/experience.jpg'}
                 alt={'decorative experience image'}
-                width={400}
-                height={400}
-                className='hidden lg:block absolute -top-4 lg:right-24 xl:right-96 opacity-70'
+                width={300}
+                height={300}
+                className='hidden lg:block absolute -top-4 lg:right-24 xl:right-96 opacity-80 rounded-3xl'
             />
-            <div>
+            <div className='pt-32'>
                 <ul className='flex flex-col gap-y-3'>
                     {experienceData.map((data, i) => (
                         <motion.li
@@ -34,7 +28,7 @@ const Experience = () => {
                             viewport={{ once: true }}
                             transition={{ duration:  0.8, type: 'spring', stiffness: 50 }}
                             >
-                            <h1 className='text-lg sm:text-xl font-light text-gray-200 mb-2'>{data.title}</h1>
+                            <h1 className='text-lg sm:text-xl font-light text-amber-200 mb-2'>{data.title}</h1>
                             <p className='text-sm sm:text-base mb-2'>
                                 <span className='block font-light'>Firma:</span>
                                 <span className='block pl-2 font-extralight text-gray-300'>{data.education}</span>
