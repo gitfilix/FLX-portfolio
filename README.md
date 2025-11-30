@@ -1,16 +1,22 @@
 # FLX-portfolio
 
-lets have a shiny new portfolio for my Work-life
+lets create a shiny new Portfolio for my Work-life
 
 # Tools used
 
-React, Next JS, FramerMotion
+React, Next JS, FramerMotion, Biome
 
-
+icons:
 https://remixicon.com/
 
-AI gen
+AI generated images
 https://bylo.ai/features/gpt-image-generator
+
+# Pipeline and Server
+Render.com - yarn build from gitfilix git repo
+
+
+Subspace of AI chatbot - static site build
 
 # TODO:'s
 
@@ -25,5 +31,11 @@ https://bylo.ai/features/gpt-image-generator
 - add email adress or make contactform running with e-mail
 - get rid of ugly images.
 - add robots for NOT indexing
+
+- create a fancy favicon 
+- fix mobile view in about section and achievements column drop
+- fix viewport width for desktop
+- add year of Education and Experience section
+- Skill section create a bolean for adding background variant for dark icons
 
 maybe: add serious mode instead of dark-mode

@@ -78,7 +78,7 @@ const Hero = () => {
               }}
               transition={{ opacity: { delay: 0.25 } }}
             >
-             Let' Talk -or Write 👍!
+              Write me 👍!
             </motion.span>
           </motion.div>
           <h1 className="text-center text-4xl font-bold tracking-wider text-gray-200 sm:text-2xl transition-colors normal-case">

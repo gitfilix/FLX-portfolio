@@ -39,7 +39,7 @@ const AboutMe = () => {
             </div>
             
             <h3 className='text-2xl mt-8'>Things done in this Year</h3>
-            <div className='mt-20 w-full flex flex-col sm:flex-row flex-wrap items-start sm:items-center justify-start sm:justify-between gap-x-7 gap-y-8'>
+            <div className='mt-20 w-full flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-between gap-x-7 gap-y-8'>
                 {aboutData.map((item, i) => (
                     <div key={i} className='w-full sm:w-[30%]'>
                         <Achievements title={item.title} amount={item.amount}>

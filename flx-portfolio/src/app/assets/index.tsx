@@ -26,17 +26,17 @@ import CupFillIcon from 'remixicon-react/CupFillIcon'
 export const aboutData = [
   {
     title: 'Github Commits',
-    amount: 2048,
+    amount: 1648,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Bugs fixed',
-    amount: 487,
+    amount: 187,
     icon: <BugLineIcon />,
   },
   {
-    title: 'unfinished Side Projects',
-    amount: 136,
+    title: 'unfinished Side-Projects',
+    amount: 26,
     icon: <PulseLineIcon />,
   },
   {
@@ -155,7 +155,7 @@ export const educationData = [
   {
     year: 2012,
     title: 'Web Entwicklung Update',
-    educationTitle: 'Web-Entwicklung & Screen Design',
+    educationTitle: 'SfGBB: Web-Entwicklung & Screen Design',
     learnedSkills: [
       'HTML-5, CSS, JavaScript, JQuery, Cross-Browser, Prototyping, Templating,',
       'Semantic & valid Coding, MVC, MVVM, Mobile First, responsive-& liquid Design',
@@ -165,7 +165,7 @@ export const educationData = [
     year: 2012,
     year2: 2014,
     title: 'Selbststudium',
-    educationTitle: 'Nerd',
+    educationTitle: 'Selbststudium zum Webfreak',
     learnedSkills: [
       'HTML-5, CSS-3, SASS, JQuery, Design Frameworks, Cross-Browser Testing, Prototyping, Templating, Navigationskonzeption, Grid- Systeme',
       'Semantic & valid Coding, MVC, MVVM, Mobile First, responsive- Design, ColdFusion, SQL, Libraries',
@@ -193,8 +193,8 @@ export const educationData = [
    {
     year: 2015,
     year2: 2016,
-    title: 'CAS: Front End Engineering',
-    educationTitle: 'Hochschule für Technik: Frontend Engineer CAS',
+    title: 'CAS: Front End Engineering I',
+    educationTitle: 'Hochschule für Technik: Frontend Engineering',
     learnedSkills: [
       'NodeJS, Rest Services, Software Engineering mit JS, Testing',
       'Single Page Application mit Angular, Web optimierungen, Web App User experience',
@@ -295,10 +295,6 @@ export const skillsData = [
     icon: '/skills/20.png',
   },
   {
-    name: 'Astro',
-    icon: '/skills/astro.png',
-  },
-  {
     name: 'Node JS',
     icon: '/skills/nodejs.png',
   },
@@ -319,12 +315,24 @@ export const skillsData = [
     icon: '/skills/eslint.png',
   },
   {
+    name: 'Copilot AI',
+    icon: '/skills/vscode.png',
+  },
+  {
+    name: 'Cursor AI',
+    icon: '/skills/cursor_icon.jpg',
+  },
+  {
     name: 'Github',
     icon: '/skills/github.png',
   },
   {
     name: 'Playwrite',
     icon: '/skills/Playwrite.png',
+  },
+  {
+    name: 'Jira',
+    icon: '/skills/Jira.png',
   },
   {
     name: 'Terraform',
@@ -339,7 +347,7 @@ export const skillsData = [
     icon: '/skills/figma.png',
   },
   {
-    name: 'vi -yes vi!',
+    name: 'vim & vi!',
     icon: '/skills/vi.png',
   },
   {
@@ -371,7 +379,7 @@ export const questions = [
       'Komplexe Anforderungen aus Entwicklung, Design und Business setze ich in verständlichen, nachhaltigen und wartbaren Code um. Im Team fördere ich den Wissensaustausch, bringe Empathie und Pragmatismus ein, um die Ziele gemeinsam zu erreichen.',
   },
   {
-    question: 'Warum braucht es Frontend Engeneering?',
+    question: 'Warum braucht es Frontend Engineering?',
     answer:
       'Wissen in den Bereichen Architektur, Entwicklungsprozesse im Team, Design & Component Systems, Cloud Deployment und weitere Fähigkeiten, um ein Projekt erfolgreich vom Start bis zum Go-Live zu führen.',
   },
@@ -391,12 +399,17 @@ export const questions = [
   {
     question: 'Wie würde ich meine Persönlichkeit beschreiben?',
     answer:
-      'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😊 Kann auch mit Nicht-Techies ganz gut kommunikation und Scrum kann ich auch mündlich und schriftlich.',
+      'Ich bin ein Nerd...  - jedoch ganz umgänglich, aber humorlos... 😇 (Vorsicht: Ironie). Ich kann auch mit Nicht-Techies ganz gut kommunikation und Scrum kann ich auch mündlich und schriftlich.',
+  },
+  {
+    question: 'Warum hast Du keine Scrum Zertifizierung aufgelisted?',
+    answer:
+      'Work in Progress: Ich bin grad daran, die Scrum Zertifizierung nachzuhohlen. Obwohl ich die Scrum Master Rolle nun "nebenbei" täglich wahrnehme, habe ich tatsächlich noch keinen offizielle Titel. Das Team performed trotzdem.',
   },
   {
     question: 'Mit welchen Tools ist diese Webpage erstellt?',
     answer:
-      'Diese Page: Next-JS, React, TypeScript, Framer Motion (for Fun! 😎), Tailwind-CSS, PostCS (for feeling the pain again! 🤔), Render hosting, yaml-pipeline',
+      'Diese Page: Next-JS, React, TypeScript, Framer Motion (for Fun! 😎), Tailwind-CSS, PostCS (for feeling the pain again! 🤔), Render hosting, yaml-pipeline description',
   },
   {
     question: 'Was habe ich in den Jahren zwischen der Multimedia Ausbildung und Webapplikation entwickeln getan?',
@@ -406,7 +419,12 @@ export const questions = [
   {
     question: 'Ersetzt AI das Code schreiben im nächsten Jahr komplett?',
     answer:
-      'Ja. ...und dann muss ich wieder den Code fixen den die AI geschrieben hat - mit Hilfe von AI. also Nein. Vielleicht sollte ich mich "Promt Engineer" nennen. Alles ist im Umbruch und das ist gut so.',
+      'Ja. ...und dann kann ich wieder den Code fixen den die AI geschrieben hat - mit Hilfe von AI. also Nein. Alles ist im Umbruch und das ist gut so.',
+  },
+  {
+    question: 'AI: Ja oder Nein?',
+    answer:
+      'Klares Ja. AI verändert den Job und wird nicht mehr weggehen. Ich benutze AI Tools täglich, sie sind grossartige Sparring Parnter oder Pair Programming Assistants. Jedoch muss man exakte Prompten, context providen und auch beim Code der generiert wird, genau kontrollieren ob er qualitativ gut ist und ob wirklich nur das gewünschte Increment geschrieben wird. AI wird unsere Arbeit verändern aber das Human Interface zwischen Stakeholder und technische Impementation wird bleiben.',
   },
   {
     question: 'Was mache ich in meiner Freizeit?',
