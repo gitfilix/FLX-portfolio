@@ -26,26 +26,26 @@ export default function Home() {
   const backgroundImage = useMotionTemplate`radial-gradient(${gradientSize}% ${gradientSpread}% at 10% 50%, #010101  22%, ${colorChange})`
 
   // TODO: Bring this cool effects back
-  // useEffect(() => {
-  //   animate(colorChange, colorRange, {
-  //     ease: 'easeInOut',
-  //     duration: 25,
-  //     repeat: Infinity,
-  //     repeatType: 'mirror'
-  //   })
-  //   animate(gradientSize, [150, 100, 180], {
-  //     ease: 'easeIn',
-  //     duration: 24,
-  //     repeat: Infinity,
-  //     repeatType: 'mirror'
-  //   })
-  //   animate(gradientSpread, [190, 210, 250, 280], {
-  //     ease: 'easeInOut',
-  //     duration: 12,
-  //     repeat: Infinity,
-  //     repeatType: 'mirror'
-  //   })
-  // }, [])
+  useEffect(() => {
+    animate(colorChange, colorRange, {
+      ease: 'easeInOut',
+      duration: 25,
+      repeat: Infinity,
+      repeatType: 'mirror'
+    })
+    animate(gradientSize, [150, 100, 180], {
+      ease: 'easeIn',
+      duration: 24,
+      repeat: Infinity,
+      repeatType: 'mirror'
+    })
+    animate(gradientSpread, [190, 210, 250, 280], {
+      ease: 'easeInOut',
+      duration: 12,
+      repeat: Infinity,
+      repeatType: 'mirror'
+    })
+  }, [])
 
 
   return (
