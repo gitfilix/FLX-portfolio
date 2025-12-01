@@ -35,7 +35,7 @@ export const aboutData = [
     icon: <BugLineIcon />,
   },
   {
-    title: 'unfinished Side-Projects',
+    title: 'Side-Projects',
     amount: 26,
     icon: <PulseLineIcon />,
   },
@@ -312,7 +312,7 @@ export const skillsData = [
   },
   {
     name: 'eslint',
-    icon: '/skills/eslint.png',
+    icon: '/skills/es_lint.png',
   },
   {
     name: 'Copilot AI',
