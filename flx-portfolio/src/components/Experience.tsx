@@ -11,7 +11,7 @@ const Experience = () => {
         <section className='py-20 px-96 relative' id='experience'>
             <Heading headertext={'Erfahrung - Arbeit'} />
             <Image
-                src={'/experience.jpg'}
+                src={'/experience_3.jpg'}
                 alt={'decorative experience image'}
                 width={300}
                 height={300}

@@ -47,9 +47,9 @@ const Hero = () => {
     >
       <div>
         <motion.div
-          initial={{ opacity: 0, y: -10 }}
+          initial={{ opacity: 0, y: -80 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.5 }}
           className="flex flex-col items-center justify-center gap-y-3 font-light capitalize"
         >
           <motion.div
@@ -84,7 +84,7 @@ const Hero = () => {
           <h1 className="text-center text-4xl font-bold tracking-wider text-gray-200 sm:text-2xl transition-colors normal-case">
             Hallo, ich bin <span className="text-amber-300">Felix</span>
           </h1>
-          <p className="text-lg tracking-wider text-gray-300 dark:text-gray-100 transition-colors">
+          <p className="text-lg tracking-wider normal-case text-gray-300 dark:text-gray-100 transition-colors">
             Ein Frontend - Freak mit 😎
           </p>
           <div className="flex items-center">
