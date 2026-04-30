@@ -1,4 +1,3 @@
-// lets force-render that all client side 
 'use client'
 import Navbar from '@/components/Navbar'
 import Hero from "@/components/Hero"
@@ -35,7 +34,7 @@ export default function Home() {
     })
     animate(gradientSize, [150, 100, 180], {
       ease: 'easeIn',
-      duration: 24,
+      duration: 14,
       repeat: Infinity,
       repeatType: 'mirror'
     })
@@ -69,9 +68,3 @@ export default function Home() {
     </section>
   )
 }
-{/* <div className='w-full p-6
-                  sm:bg-amber-600 
-                  md:bg-amber-900
-                  lg:bg-blue-400
-                  xl:bg-green-400'
-                  >da sollte immer da sein zum testen</div> */}
